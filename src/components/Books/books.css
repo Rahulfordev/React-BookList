@@ -89,7 +89,7 @@ tbody {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .wrapper .form-container {
     max-width: 350px;
   }
@@ -100,6 +100,23 @@ tbody {
 
   .table-head {
     font-size: 8px;
+  }
+  .book-details {
+    font-size: 9px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .wrapper .form-container {
+    max-width: 340px;
+  }
+
+  .wrapper .view-container {
+    max-width: 340px;
+  }
+
+  .table-head {
+    font-size: 7px;
   }
   .book-details {
     font-size: 9px;
