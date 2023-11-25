@@ -3,7 +3,7 @@ import { MdDelete } from "react-icons/md";
 const BookRow = ({ book, deleteList }) => {
  
   return (
-    <tr>
+    <tr className="book-details">
       <td>{book.isbn}</td>
       <td>{book.title}</td>
       <td>{book.author}</td>

@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import BookRow from "../Book/BookRow";
 import { getDataFormLocalstorage } from "../../Utils/Utils";
+import "./books.css";
 const Books = () => {
   // main array of objects state || books state || books array of objects
   const [books, setBooks] = useState(getDataFormLocalstorage());
@@ -100,7 +101,7 @@ const Books = () => {
               <div className="table-responsive">
                 <table className="table">
                   <thead>
-                    <tr>
+                    <tr className="table-head">
                       <th>ISBN#</th>
                       <th>Title</th>
                       <th>Author</th>
